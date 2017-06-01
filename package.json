@@ -1,0 +1,55 @@
+{
+  "name": "pipes-module",
+  "version": "0.0.1",
+  "description": "list of pipes for angular2+ in one single module",
+  "main": "./src/pipes.module.ts",
+  "types": "index.d.ts",
+  "author": {
+    "name": "tvicpe",
+    "email": "tv@tomsa.md",
+    "url": "https://github.com/tvicpe"
+  },
+  "repository": "tvicpe/pipes-module",
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/tvicpe/pipes-module/blob/master/LICENSE"
+    }
+  ],
+  "scripts": {
+    "ng": "ng",
+    "start": "ng serve",
+    "build": "ng build",
+    "test": "ng test",
+    "lint": "ng lint",
+    "e2e": "ng e2e"
+  },
+  "keywords": [
+    "trust-html",
+    "trustHtml",
+    "nl2br",
+    "br",
+    "\n",
+    "inject",
+    "html",
+    "module",
+    "trust",
+    "angular",
+    "angular2",
+    "pipe",
+    "trust-html-pipe",
+    "trustHtmlPipe"
+  ],
+  "dependencies": {
+    "@angular/common": ">=2.3.1",
+    "@angular/core": ">=2.3.1",
+    "nl2br-pipe": ">0.0.3",
+    "trust-html-pipe": ">=0.0.5",
+    "zone.js": "^0.7.2"
+  },
+  "devDependencies": {
+    "ts-node": "~2.0.0",
+    "tslint": "~4.5.0",
+    "typescript": "~2.2.0"
+  }
+}
