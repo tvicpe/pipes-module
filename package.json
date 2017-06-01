@@ -1,6 +1,6 @@
 {
   "name": "pipes-module",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "list of pipes for angular2+ in one single module",
   "main": "./src/pipes.module.ts",
   "types": "index.d.ts",
@@ -29,7 +29,6 @@
     "trustHtml",
     "nl2br",
     "br",
-    "\n",
     "inject",
     "html",
     "module",
@@ -43,7 +42,7 @@
   "dependencies": {
     "@angular/common": ">=2.3.1",
     "@angular/core": ">=2.3.1",
-    "nl2br-pipe": ">0.0.3",
+    "nl2br-pipe": ">0.0.4",
     "trust-html-pipe": ">=0.0.5",
     "zone.js": "^0.7.2"
   },
