@@ -1,6 +1,6 @@
 {
   "name": "pipes-module",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "list of pipes for angular2+ in one single module",
   "main": "src/pipes.module.ts",
   "types": "index.d.ts",
@@ -70,5 +70,8 @@
     "uuid": "^3.0.0",
     "webpack": "^1.13.3",
     "webpack-dev-server": "^1.16.2"
+  },
+  "engines": {
+    "node": ">= 6.5.0"
   }
 }

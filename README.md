@@ -45,4 +45,4 @@ import { PipesModule } from 'pipes-module';
   
   
 ### <a name="version"></a>6. Version
-0.0.5
+0.0.6
