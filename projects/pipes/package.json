@@ -1,6 +1,6 @@
 {
   "name": "pipes-module",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "list of pipes for angular2+ in one single module",
   "author": {
     "name": "tvicpe",
@@ -29,9 +29,11 @@
     "trust-html-pipe",
     "trustHtmlPipe"
   ],
-  "peerDependencies": {
-    "@angular/core": ">=2.3.1",
+  "dependencies": {
     "nl2br-pipe": ">=1.2.3",
     "trust-html": ">=1.0.0"
+  },
+  "peerDependencies": {
+    "@angular/core": ">=2.3.1"
   }
 }
